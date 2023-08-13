@@ -24,5 +24,13 @@ I am going to desrcibe from scartch how to install this project into local machi
    ==> python manage.py runserver (For Windows)
  
 
+Here  are the three Tasks have been given by the Evident BD:
+
+Section 1:
+
+User Authentication/Registration Page
+
+A user login and registration section. You can use whatever input fields you want (maintaining a standard)
+![image](https://github.com/Habib16051/Coding_Parina_Task/assets/39822204/6f95e77c-6c18-4f55-b730-4be53f7239db)
 
 

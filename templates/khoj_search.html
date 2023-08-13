@@ -1,0 +1,39 @@
+{% extends 'base.html' %} {% load static %} <br />
+
+{% block title %}KhojSearch{%endblock %} <br />
+{% block content %}
+<h2
+  style="
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 100px;
+    border: 1px solid grey;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  "
+>
+  Khoj Search
+</h2>
+
+<br />
+
+<!-- search form -->
+<div style="text-align: center">
+  <form method="post" style="display: inline-block">
+    {% csrf_token %} {{ form.as_p }}
+    <button
+      type="submit"
+      class="btn btn-success"
+      style="text-align: justify; margin-left: 100px"
+    >
+      Khoj
+    </button>
+  </form>
+</div>
+<br />
+{% if search_result is not None %}
+<p style="text-align: center; margin-left: 60px">
+  Search Result: {% if search_result %}<strong>True</strong><br />
+  {% else %}<strong>False</strong>{% endif %}
+</p>
+{% endif %} {% endblock %}

@@ -1,0 +1,27 @@
+{% extends 'base.html' %} {% load static %} {% block title %}Login{% endblock %}
+<br />
+{% block content %}
+<h2
+  style="
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid grey;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  "
+>
+  Login Below Here
+</h2>
+
+<br />
+<div style="text-align: center">
+  <form method="post" style="display: inline-block">
+    {% csrf_token %} {{ form.as_p }}
+    <button type="submit" class="btn btn-success">Login</button>
+  </form>
+</div>
+<br />
+<p style="text-align: center">
+  Don't have an account? <a href="{% url 'register' %}">Register here</a>
+</p>
+{% endblock %}

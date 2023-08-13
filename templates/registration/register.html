@@ -1,0 +1,28 @@
+{% extends 'base.html' %} {% block title %}Register{% endblock %} <br />
+{% block content %}
+<!-- <h2 style="text-align: center; margin-top: 50px">Register Below Here</h2> -->
+<h2
+  style="
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid grey;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  "
+>
+  Register Below Here
+</h2>
+
+<br />
+<div style="text-align: justify; margin-left: 150px">
+  <form method="post" style="display: inline-block">
+    {% csrf_token %} {{ form.as_p }}
+    <button type="submit" class="btn btn-success">Register</button>
+  </form>
+</div>
+
+<br />
+<p style="margin-left: 150px">
+  Already have an account? <a href="{% url 'login' %}">Login here</a>
+</p>
+{% endblock %}

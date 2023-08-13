@@ -96,10 +96,10 @@ So My output for the Sections 3 is:
 API Document lin for generate JWT Token (access and refresh) and GET all the input values and timestamp:
 https://documenter.getpostman.com/view/27234319/2s9Xy5MAca
 
-USERNAME:habib
+USERNAME:habib    
 PASSWORD:habib
 
-This project and it's documentation is developed by # Md Habibur Rahman
+This project and it's documentation is developed by Md Habibur Rahman
 
 
 

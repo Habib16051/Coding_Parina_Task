@@ -71,9 +71,26 @@ In this section, there will be only one API endpoints
 
 Endpoint 1: Get All Input Values
 
-    Parameters: start_datetime, end_datetime, user_id
+   Check the following response format.
 
-    Returns: All the Input Values the user ever entered within start_datetime(inclusive) and end_datetime (inclusive).
+{
+    “status”: “succes”,
+    “user_id” : 1,
+    “payload” : [
+         {
+              “timestamp” : ”2012-01-01 00:00:00”,
+              “input_values” : “11, 10, 9, 7, 5, 1, 0”
+          },
+         {
+                “timestamp” : ”2013-01-01 01:00:00”,
+                 “input_values” : “13, 11, 10, 7, 5, 2, 1”
+          
+       ]
+}
+
+So My output for the Sections 3 is:
+![section](https://github.com/Habib16051/Coding_Parina_Task/assets/39822204/febc3495-6e54-458a-9d33-e65ff1788c9f)
+
 
 
 

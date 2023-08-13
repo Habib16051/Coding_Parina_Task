@@ -10,6 +10,7 @@ I am going to desrcibe from scartch how to install this project into local machi
  2. Create the Virtual Environment:
    ===============================================================================
    a1.python3 -m venv env (for Linux)
+
    b1.source/env/bin/activate (For Linux) - To activate the virtual environment
    ================================================================================
     a2. python -m venv env (for Windows)

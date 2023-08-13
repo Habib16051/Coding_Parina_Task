@@ -38,5 +38,42 @@ And if we don't have account, then we can register for a new acount:
 
 ![image](https://github.com/Habib16051/Coding_Parina_Task/assets/39822204/6255bb39-ee58-4edc-b17b-79d34a6a1b1d)
 
+After Login: We will move on for the Section 2 of the project:
+
+Section 2:
+
+Khoj the search Page
+
+After login, users can access this page.
+Khoj the search: In this segment(page), there will be two input fields
+
+    Input Values: User can input comma separated integers
+
+    Search Value: User can input only one integer 
+
+Output: Will print True if the search value is in the input values. 
+
+
+![image](https://github.com/Habib16051/Coding_Parina_Task/assets/39822204/3c81a387-8736-4e5f-8c4d-bed47dd80726)
+
+Otherwise print False
+
+![image](https://github.com/Habib16051/Coding_Parina_Task/assets/39822204/1a07bcaf-66ba-4efb-9969-6f96388845be)
+
+
+and It's time foe the Scetion 3:
+
+Section 3:
+
+API Endpoints:
+
+In this section, there will be only one API endpoints
+
+Endpoint 1: Get All Input Values
+
+    Parameters: start_datetime, end_datetime, user_id
+
+    Returns: All the Input Values the user ever entered within start_datetime(inclusive) and end_datetime (inclusive).
+
 
 

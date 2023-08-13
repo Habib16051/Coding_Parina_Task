@@ -93,7 +93,7 @@ So My output for the Sections 3 is:
 
 ![section](https://github.com/Habib16051/Coding_Parina_Task/assets/39822204/febc3495-6e54-458a-9d33-e65ff1788c9f)
 
-API Document lin for generate JWT Token (access and refresh) and GET all the input values and timestamp:
+API Document link for generating JWT Token (access and refresh) and GET all the input values and timestamp:
 https://documenter.getpostman.com/view/27234319/2s9Xy5MAca
 
 USERNAME:habib    

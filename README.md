@@ -31,6 +31,12 @@ Section 1:
 User Authentication/Registration Page
 
 A user login and registration section. You can use whatever input fields you want (maintaining a standard)
+
 ![image](https://github.com/Habib16051/Coding_Parina_Task/assets/39822204/6f95e77c-6c18-4f55-b730-4be53f7239db)
+
+And if we don't have account, then we can register for a new acount:
+
+![image](https://github.com/Habib16051/Coding_Parina_Task/assets/39822204/6255bb39-ee58-4edc-b17b-79d34a6a1b1d)
+
 
 

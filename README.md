@@ -9,11 +9,11 @@ I am going to desrcibe from scartch how to install this project into local machi
 ==> git clone https://github.com/Habib16051/Coding_Parina_Task.git
  2. Create the Virtual Environment:
    ===============================================================================
-   a.python3 -m venv env (for Linux)
-   b.source/env/bin/activate (For Linux) - To activate the virtual environment
+   a1.python3 -m venv env (for Linux)
+   b1.source/env/bin/activate (For Linux) - To activate the virtual environment
    ================================================================================
-   ==> python -m venv env (for Windows)
-   ==> cd env/Scripts/activate (For Windows) - To activate the virtual environment
+    a2. python -m venv env (for Windows)
+    b2. cd env/Scripts/activate (For Windows) - To activate the virtual environment
 
 4. It's time to install the requirements.txt file using below command:
    ==> pip3 install -r requirements.txt (For Linux)

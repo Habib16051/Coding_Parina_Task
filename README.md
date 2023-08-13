@@ -13,6 +13,14 @@ I am going to desrcibe from scartch how to install this project into local machi
    ========================================
    a2. python -m venv env (for Windows)
    b2. cd env/Scripts/activate (For Windows) - To activate the virtual environment
-   
+
+3. It's time to install the requirements.txt file using below command:
+   ==> pip3 install -r requirements.txt (For Linux)
+   ==> pip install -r requirements.txt (For Windows)
+
+4. Run the server Using this command:
+   ==> python3 manage.py runserver (For Linux)
+   ==> python manage.py runserver (For Windows)
+
 
 

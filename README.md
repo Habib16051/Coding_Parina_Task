@@ -98,6 +98,7 @@ So My output for the Sections 3 is:
 # API Document link for generating JWT Token (access and refresh) and GET all the input values and timestamp:
 https://documenter.getpostman.com/view/27234319/2s9Xy5MAca
 
+
 # Live Hosting Demo:
 http://codingparina.pythonanywhere.com/
 

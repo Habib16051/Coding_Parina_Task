@@ -36,39 +36,26 @@ INSTALLED_APPS = [
 
     # 3rd Party Apps
     'rest_framework',
-    # 'rest_framework_simplejwt',
     "corsheaders",
     'rest_framework_simplejwt',
 
 ]
 
 # for jwt token auth
-REST_FRAMEWORK={
-	"NON_FIELD_ERRORS_KEY":"error",
-	"DEFAULT_AUTHENTICATION_CLASSES":(
-		'rest_framework_simplejwt.authentication.JWTAuthentication',
-		)
+REST_FRAMEWORK = {
+    "NON_FIELD_ERRORS_KEY": "error",
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
 }
 
 SIMPLE_JWT = {
-	'ACCESS_TOKEN_LIFETIME': timedelta(days=1),
-	'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
-	'ALGORITHM': 'HS256',
-	'AUTH_HEADER_TYPES': ('Bearer',),
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=10),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=10),
+    'ALGORITHM': 'HS256',
+    'AUTH_HEADER_TYPES': ('Bearer',),
 }
 
-
-# REST_FRAMEWORK = {
-
-#     'DEFAULT_AUTHENTICATION_CLASSES': (
-
-#         'rest_framework_simplejwt.authentication.JWTAuthentication',
-#     ),
-#     'DEFAULT_PERMISSION_CLASSES': [
-#         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
-#     ]
-
-# }
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -155,5 +142,3 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
-

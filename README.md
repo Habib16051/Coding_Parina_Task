@@ -63,7 +63,7 @@ Otherwise print False
 ![image](https://github.com/Habib16051/Coding_Parina_Task/assets/39822204/1a07bcaf-66ba-4efb-9969-6f96388845be)
 
 
-and It's time foe the Scetion 3:
+and It's time to solve the Scetion 3:
 
 # Section 3:
 

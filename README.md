@@ -5,7 +5,7 @@ I am going to desrcibe from scartch how to install this project into local machi
 
 # Installation Procees
 
-1. First you need to clone this project using this command:
+1. First you need to clone this project using this command:      
 ==> git clone https://github.com/Habib16051/Coding_Parina_Task.git
  2. Create the Virtual Environment:
    ===============================================================================   

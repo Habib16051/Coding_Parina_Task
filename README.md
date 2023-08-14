@@ -28,7 +28,7 @@ I am going to desrcibe from scartch how to install this project into local machi
 
 Here  are the three Tasks have been given by the Evident BD:
 
-Section 1:
+# Section 1:
 
 User Authentication/Registration Page
 
@@ -42,7 +42,7 @@ And if we don't have account, then we can register for a new acount:
 
 After Login: We will move on for the Section 2 of the project:
 
-Section 2:
+# Section 2:
 
 Khoj the search Page
 
@@ -65,7 +65,7 @@ Otherwise print False
 
 and It's time foe the Scetion 3:
 
-Section 3:
+# Section 3:
 
 API Endpoints:
 
